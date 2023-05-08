@@ -132,6 +132,25 @@ ro.vendor.display.cabl=2
 vendor.display.idle_time=32767
 vendor.gralloc.disable_ahardware_buffer=1
 
+# DisplayFromSystemProp
+
+debug.cpurend.vsync=false
+debug.performance.tuning=1
+debug.sf.disable_backpressure=1
+debug.sf.enable_hwc_vds=1
+debug.sf.hw=1
+debug.gralloc.enable_fb_ubwc=1
+dalvik.vm.heapsize=36m
+dev.pm.dyn_samplingrate=1
+persist.demo.hdmirotationlock=false
+sdm.debug.disable_skip_validate=1
+vendor.display.enable_default_color_mode=1
+vendor.gralloc.enable_fb_ubwc=1
+vendor.display.disable_skip_validate=1
+ro.hwui.render_ahead=20
+debug.hwui.skia_atrace_enabled=false
+
+
 # FS-verity
 ro.apk_verity.mode=2
 
