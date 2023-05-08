@@ -362,16 +362,16 @@ PRODUCT_PACKAGES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(COMMON_PATH)/overlay \
-    $(COMMON_PATH)/overlay-tequila
+    $(COMMON_PATH)/overlay-derp
 
 # RRO configuration
 TARGET_USES_RRO := true
 
 # Dexpreopt
-PRODUCT_DEXPREOPT_SPEED_APPS += \
-    Launcher3QuickStep \
-    Settings \
-    SystemUI
+#PRODUCT_DEXPREOPT_SPEED_APPS += \
+#    Launcher3QuickStep \
+#    Settings \
+#    SystemUI
 
 # Permissions
 PRODUCT_COPY_FILES += \
